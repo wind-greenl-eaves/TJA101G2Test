@@ -1,34 +1,22 @@
 package com.eatfast.member.model;
 
 public class MemberVO {
-
-	private int memID;
-	private String memName;
-
+	private Integer memId;
+	private String XXX;
+	public Integer getMemId() {
+		return memId;
+	}
+	public void setMemId(Integer memId) {
+		this.memId = memId;
+	}
+	public String getXXX() {
+		return XXX;
+	}
+	public void setXXX(String xXX) {
+		XXX = xXX;
+	}
 	public MemberVO() {
 		super();
 	}
-
-	public MemberVO(int memID, String memName) {
-		super();
-		this.memID = memID;
-		this.memName = memName;
-	}
-
-	public int getMemID() {
-		return memID;
-	}
-
-	public void setMemID(int memID) {
-		this.memID = memID;
-	}
-
-	public String getMemName() {
-		return memName;
-	}
-
-	public void setMemName(String memName) {
-		this.memName = memName;
-	}
-
+	
 }
