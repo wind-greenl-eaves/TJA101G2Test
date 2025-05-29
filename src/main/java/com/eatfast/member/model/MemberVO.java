@@ -3,6 +3,9 @@ package com.eatfast.member.model;
 public class MemberVO {
 	private Integer memId;
 	private String XXX;
+	private String yyy;
+	
+	
 	public Integer getMemId() {
 		return memId;
 	}
